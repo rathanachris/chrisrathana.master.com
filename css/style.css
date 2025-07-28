@@ -177,7 +177,20 @@ header label.fas {
   padding: 20px;
   text-align: center;
 }
-
+/* Content area */
+.content {
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow:  0 18px 36px rgba(0,0,0,0.15);
+  transition: -45s;
+}
 /* Image */
 .category-team img {
   width: 100%;
