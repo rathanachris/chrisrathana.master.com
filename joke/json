@@ -1,0 +1,16 @@
+{
+  "category": "Programming",
+  "type": "single",
+  "joke": "Why do programmers hate nature? It has too many bugs.",
+  "flags": {
+    "nsfw": false,
+    "religious": false,
+    "political": false,
+    "racist": false,
+    "sexist": false,
+    "explicit": false
+  },
+  "id": 25,
+  "safe": true,
+  "lang": "en"
+}
