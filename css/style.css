@@ -249,15 +249,6 @@ header label.fas {
   background-color: #219150;
 }
 
-
-
-
-
-
-
-
-
-
 /* General Section Styling */
 .about-section {
   background: #f5f5f5;
@@ -364,6 +355,196 @@ header label.fas {
   color: #333;
   text-transform: capitalize;
 }
+/* products section */
+.products {
+  display: flex;
+  align-items: ;
+  min-height: 30vh;
+  background:url(../image/fb.computer.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products.content{
+  max-width: 50rem;  
+}
+.products.content span{
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.products.content p{
+  font-size: 2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  color: #999;
+  text-transform: none;
+  height: ;
+}height: ;
+/* Review section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.header{
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+.review {
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background:url(../image/fb.computer.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.review.content{
+  max-width: 50rem;  
+}
+.review.content span{
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.reviews-section {
+ padding: 50px 20px;
+ text-align: center;
+ background-color: #2fff;
+ border-radius: 10px;
+ margin: 20px;
+}
+.reviews-section h1 {
+ font-size: 36px;
+ margin-bottom: 20px;
+}
+.reviews-list {
+ max-width: 800px;
+ margin: 0 auto;
+ text-align: left;
+ margin-bottom: 30px;
+}
+.review {
+ border: 1px solid #ddd;
+ padding: 15px;
+ margin: 10px 0;
+ border-radius: 5px;
+ background-color: #2f9f9f9;
+}
+.review h3 {
+ margin-bottom: 10px;
+}
+.review p {
+ margin-bottom: 5px;
+}
+.review span {
+ font-size: 14px;
+ color: #666;
+}
+.review from{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.review-form button {
+  padding: 10px 20px;
+  background-color: #d4a373;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.review-form button:hover {
+  background-color: #2b08968;
+}
+/* Contact section*/
+.contact{
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background:url(../image/fb.computer.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact.row content{
+  max-width: 50rem;  
+}
+.contact.row content span{
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: bolder;
+}font: ;
+.contact.row.content p{
+  font-size: 2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  color: #999;
+  text-transform: none;
+}
+.header{
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff; border-radius: 10px;
+  margin: 20px;
+}
+.contact-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.contact-form{
+  max-width: 600px; margin: 0 auto;  text-align: left;
+}
+.contact-form input,
+.contact-form textarea{
+width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+}
+.contact-form button {
+ padding: 10px 20px;
+ background-color: #d4a373;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.contact-form button:hover {
+ background-color: #608968;
+}
+.map{
+  margin: 20px 0;
+  border: 0;
+  width: 100%;
+  height: 400px;
+  }
+
 footer {
   background-colorheight: #2b58ff;
   color: #fff;
