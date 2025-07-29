@@ -1,10 +1,37 @@
-function sanitizeInput(input) {
-  return input.replace(/<|>|script|alert|onerror|onload/gi, "");
-}
+// simple_server.js
 
-document.querySelector("form").addEventListener("submit", function(e) {
-  const inputs = document.querySelectorAll("input, textarea");
-  inputs.forEach(input => {
-    input.value = sanitizeInput(input.value);
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+// Create server on port 8080
+const PORT = 8080;
+
+http.createServer((req, res) => {
+  let filePath = '.' + req.url;
+  if (filePath == './') {
+    filePath = './index.html'; // default file
+  }
+
+  const extname = String(path.extname(filePath)).toLowerCase();
+  const contentType = {
+    '.html': 'text/html',
+    '.js': 'text/javascript',
+    '.css': 'text/css',
+    '.json': 'application/json',
+    '.png': 'image/png',
+    '.jpg': 'image/jpg'
+  }[extname] || 'application/octet-stream';
+
+  fs.readFile(filePath, (error, content) => {
+    if (error) {
+      res.writeHead(404);
+      res.end('404 Not Found');
+    } else {
+      res.writeHead(200, { 'Content-Type': contentType });
+      res.end(content, 'utf-8');
+    }
   });
+}).listen(PORT, () => {
+  console.log(`✅ Server started at http://localhost:${PORT}`);
 });
