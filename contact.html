@@ -111,7 +111,7 @@ required></textarea>
 <!-- Your Custom JavaScript -->
 <script>
     // Create map and set center [Latitude, Longitude] and zoom level
-    var map = L.map('map').setView([11.5564, 104.9282], 13); // Phnom Penh
+    var map = L.map('map').setView([11.5225, 104.8865], 13); // Phnom Penh
 
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -120,7 +120,7 @@ required></textarea>
     }).addTo(map);
 
     // Add a marker
-    var marker = L.marker([11.5564, 104.9282]).addTo(map);
+    var marker = L.marker([11.5225, 104.8865]).addTo(map);
     marker.bindPopup("<b>Hello!</b><br>This is Phnom Penh.").openPopup();
 </script>
 </body>
