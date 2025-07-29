@@ -79,12 +79,23 @@ required></textarea>
 <!-- Contact Section end -->
 <!-- Google Maps Embed -->
 <h2>Our Location</h2>
-<iframe
-src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15651.3369221324212
-n!2sin!4v169762209317615m2!1sen!2sin" width="100%" height="800px"
-d77.5733936513d11.27359315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.115e0!3m2!1se style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-
+</html>
+<body>
+<!-- From jsDelivr CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Custom CSS -->
+  <style>
+    #map {
+      height: 45vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<!-- Local Leaflet JS -->
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js">
+</script>
 <!-- prettier-ignore -->
 <center>
 </footer> 
@@ -96,8 +107,20 @@ d77.5733936513d11.27359315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.115e0!3m2!1se s
 <a href="#"><i class="fab fa-tiktok"></i></a>
 </center>
 </footer>
+<!-- Your Custom JavaScript -->
 <script>
+    // Create map and set center [Latitude, Longitude] and zoom level
+    var map = L.map('map').setView([11.5564, 104.9282], 13); // Phnom Penh
 
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // Add a marker
+    var marker = L.marker([11.5564, 104.9282]).addTo(map);
+    marker.bindPopup("<b>Hello!</b><br>This is Phnom Penh.").openPopup();
 </script>
 </body>
 </div></div></div></div></div></div></head></div></div></div></div></div></body>
