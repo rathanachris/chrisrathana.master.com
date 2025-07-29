@@ -116,12 +116,12 @@ required></textarea>
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
-      attribution: '© OpenStreetMap'
+      attribution: '© open.street.map'
     }).addTo(map);
 
     // Add a marker
     var marker = L.marker([11.5225, 104.8865]).addTo(map);
-    marker.bindPopup("<b>Hello!</b><br>This is Phnom Penh.").openPopup();
+    marker.bindPopup("<b>Hello!World</b><br>Phnom Penh.").openPopup();
 </script>
 </body>
 </div></div></div></div></div></div></head></div></div></div></div></div></body>
