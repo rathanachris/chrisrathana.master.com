@@ -13,6 +13,16 @@ body {
 section{
   padding:2rem 9%;
 }
+button{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background:#333;
+  color: #fff;
+  padding:.9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
 .heading{
   text-align: center;
   font-size: 4rem;
@@ -380,7 +390,7 @@ header label.fas {
   line-height: 1.5;
   color: #999;
   text-transform: none;
-  height: ;
+  height: 0px;
 }
 /* Review section */
 * {
@@ -493,7 +503,8 @@ body {
   padding: 1rem 0;
   line-height: 1.5;
   font-weight: bolder;
-}font: ;
+  font: 0%;
+}
 .contact.row.content p{
   font-size: 2rem;
   padding: 1rem 0;
@@ -550,7 +561,6 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
 }
 
 .social-icons a {
-  color: #fff;
   margin: 0 10px;
   text-decoration: none;
   font-size: 18px;
