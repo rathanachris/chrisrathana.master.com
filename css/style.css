@@ -242,19 +242,28 @@ a.fas.fa-user {
   padding: 20px;
   text-align: center;
 }
-/* Content area */
+/* ផ្ទាំងមេ - container */
+.container {
+  display: flex;                    /* ប្រើ flex ដើម្បីរៀបប្រអប់ជាសន្ទស្សន៍ */
+  justify-content: space-between;   /* បែងចែកប្រអប់ស្មើៗគ្នា */
+  flex-wrap: wrap;                  /* បង្វិលប្រអប់ទៅជួរថ្មីបើលេីកន្លែងមិនគ្រប់គ្រាន់ */
+  gap: 20px;                        /* ចន្លោះរវាងប្រអប់ */
+  padding: 10px;                    /* ជុំវិញផ្ទាំងមេ */
+}
+
+/* ប្រអប់ content */
 .content {
-  padding: 20px;
-  text-align: center;
-  margin: 15px;
-  box-sizing: border-box;
-  float: left;
-  text-align: center;
-  border-radius: 20px;
-  cursor: pointer;
-  padding-top: 10px;
-  box-shadow:  0 18px 36px rgba(0,0,0,0.15);
-  transition: -45s;
+  flex: 1;                             /* ប្រអប់ទាំងអស់មានទំហំស្មើៗគ្នា */
+  padding: 20px 10px;                  /* ជំហាននៅក្នុងប្រអប់ */
+  text-align: center;                  /* អត្ថបទនៅកណ្តាល */
+  margin: 15px 0;                      /* ចន្លោះលើ និងក្រោម */
+  box-sizing: border-box;              /* រួមគណនាព្រំប្រទាល border និង padding */
+  border-left: 2px solid black;        /* ខ្សែព្រំ 2px ខាងឆ្វេង */
+  border-right: 2px solid black;       /* ខ្សែព្រំ 2px ខាងស្តាំ */
+  border-radius: 20px;                 /* មូលខាងប្រអប់ */
+  cursor: pointer;                     /* មួកស្នើសម្រាប់ hover */
+  box-shadow: 0 18px 36px rgba(0,0,0,0.15);  /* ធ្វើខ្មៅស្រួចខាងក្រោម */
+  transition: all 0.3s ease;           /* effect ផ្លាស់ប្ដូរលឿន */
 }
 /* Image */
 .category-team img {
