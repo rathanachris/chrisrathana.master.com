@@ -242,10 +242,6 @@ a.fas.fa-user {
   padding: 20px;
   text-align: center;
 }
-/* ផ្ទាំងមេ - container */
-.container {
-  display: flex;                    /* ប្រើ flex ដើម្បីរៀបប្រអប់ជាសន្ទស្សន៍ *
-}
 /* ប្រអប់ content */
 .content {
   flex: 1;                             /* ប្រអប់ទាំងអស់មានទំហំស្មើៗគ្នា */
