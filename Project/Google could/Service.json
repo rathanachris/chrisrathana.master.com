@@ -1,8 +1,8 @@
 {
   "project_info": {
-    "project_number": "chrisshop-com38167",
+    "project_number": "chrisshop.com",
     "project_id": "185184976746",
-    "storage_bucket": "chrisshop.com38167.appspot.com",
+    "storage_bucket": "chrisshop.com.appspot.com",
   },
   "client": [
     {
@@ -34,7 +34,7 @@
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "185184976746",
-                "app_store_id": "chrisshop-com38167",
+                "app_store_id": "chrisshop.com",
               }
             }
           ]
