@@ -244,13 +244,8 @@ a.fas.fa-user {
 }
 /* ផ្ទាំងមេ - container */
 .container {
-  display: flex;                    /* ប្រើ flex ដើម្បីរៀបប្រអប់ជាសន្ទស្សន៍ */
-  justify-content: space-between;   /* បែងចែកប្រអប់ស្មើៗគ្នា */
-  flex-wrap: wrap;                  /* បង្វិលប្រអប់ទៅជួរថ្មីបើលេីកន្លែងមិនគ្រប់គ្រាន់ */
-  gap: 10px;                        /* ចន្លោះរវាងប្រអប់ */
-  padding: 3px;                    /* ជុំវិញផ្ទាំងមេ */
+  display: flex;                    /* ប្រើ flex ដើម្បីរៀបប្រអប់ជាសន្ទស្សន៍ *
 }
-
 /* ប្រអប់ content */
 .content {
   flex: 1;                             /* ប្រអប់ទាំងអស់មានទំហំស្មើៗគ្នា */
