@@ -236,7 +236,6 @@ a.fas.fa-user {
 .category-team:hover {
   transform: translateY(-5px);
 }
-
 /* Content inside each box */
 .category-team .content {
   padding: 20px;
@@ -246,7 +245,6 @@ a.fas.fa-user {
 .content {
   flex: 1;                             /* ប្រអប់ទាំងអស់មានទំហំស្មើៗគ្នា */
   padding: 20px 10px;                  /* ជំហាននៅក្នុងប្រអប់ */
-  text-align: center;                  /* អត្ថបទនៅកណ្តាល */
   margin: 15px 0;                      /* ចន្លោះលើ និងក្រោម */
   box-sizing: border-box;              /* រួមគណនាព្រំប្រទាល border និង padding */
   border-left: 2px solid black;        /* ខ្សែព្រំ 2px ខាងឆ្វេង */
