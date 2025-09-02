@@ -243,16 +243,7 @@ a.fas.fa-user {
 }
 /* ប្រអប់ content */
 .content {
-  flex: 1;                             /* ប្រអប់ទាំងអស់មានទំហំស្មើៗគ្នា */
-  padding: 20px 10px;                  /* ជំហាននៅក្នុងប្រអប់ */
-  margin: 15px 0;                      /* ចន្លោះលើ និងក្រោម */
-  box-sizing: border-box;              /* រួមគណនាព្រំប្រទាល border និង padding */
-  border-left: 2px solid black;        /* ខ្សែព្រំ 2px ខាងឆ្វេង */
-  border-right: 2px solid black;       /* ខ្សែព្រំ 2px ខាងស្តាំ */
-  border-Conerbox: 20px;                /* ជ្រុងខាងប្រអប់ */
-  cursor: pointer;                     /* មួកស្នើសម្រាប់ hover */
-  box-shadow: 0 18px 25px rgba(0,0,0,0.3);  /* ធ្វើខ្មៅស្រួចខាងក្រោម */
-  transition: all 0.3s ease;           /* effect ផ្លាស់ប្ដូរលឿន */
+
 }
 /* Image */
 .category-team img {
