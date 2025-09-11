@@ -15,7 +15,7 @@
       "oauth_client": [
         {
           "client_type": 1,
-          "client_id": "185184976746"
+          "client_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com"
           "android_info": {
             "package_name": "chrisshop.com",
           }
@@ -33,7 +33,7 @@
             {
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "185184976746",
+                "bundle_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com"
                 "app_store_id": "chrisshop.com",
               }
             }
