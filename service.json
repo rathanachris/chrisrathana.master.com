@@ -1,27 +1,26 @@
 {
   "project_info": {
-    "project_number": "chrisshop.com",
-    "project_id": "185184976746",
-    "storage_bucket": "chrisshop.com.appspot.com",
+    "project_number": "185184976746",
+    "project_id": "dns.smileshop.com",
+    "storage_bucket": "dns.smileshop.com.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "185184976746"
+        "mobilesdk_app_id": "185184976746",
         "android_client_info": {
-          "package_name": "chrisshop.com",
+          "package_name": "dns.smileshop.com"
         }
       },
       "oauth_client": [
         {
           "client_type": 1,
-          "client_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com"
+          "client_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com",
           "android_info": {
-            "package_name": "chrisshop.com",
+            "package_name": "dns.smileshop.com"
           }
         }
       ],
-      "oauth_client": [],
       "api_key": [
         {
           "current_key": "AIzaSyAZ3_6wCQXpes9TpOuR-TqwjPZKJ5a_xKA"
@@ -33,8 +32,8 @@
             {
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com"
-                "app_store_id": "chrisshop.com",
+                "bundle_id": "dns.smileshop.com.ios",
+                "app_store_id": "1234567890"
               }
             }
           ]
