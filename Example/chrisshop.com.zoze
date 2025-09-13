@@ -1,0 +1,28 @@
+$TTL 3600         ; Time To Live (1 hour)
+
+@   IN  SOA   ns1.chrisshop.com. admin.chrisshop.com. (
+        2025091301 ; Serial number (yyyymmddnn)
+        3600       ; Refresh (1 hour)
+        1800       ; Retry (30 minutes)
+        1209600    ; Expire (14 days)
+        86400      ; Minimum TTL (1 day)
+)
+
+; --- Nameservers ---
+@       IN  NS    ns1.chrisshop.com.
+@       IN  NS    ns2.chrisshop.com.
+
+; --- A Records (IPv4) ---
+@       IN  A     192.168.1.100
+www     IN  A     192.168.1.100
+dns     IN  A     192.168.1.101
+
+; --- AAAA Record (IPv6) ---
+@       IN  AAAA  2001:db8::1
+
+; --- CNAME (Alias) ---
+ftp     IN  CNAME www.chrisshop.com.
+
+; --- MX (Mail Servers) ---
+@       IN  MX 10 mail.chrisshop.com.
+mail    IN  A     192.168.1.102
