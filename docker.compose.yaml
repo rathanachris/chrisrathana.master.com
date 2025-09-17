@@ -1,1 +1,18 @@
+version: "3.9"
 
+services:
+  app:
+    build: ./myapp
+    container_name: chrisshop.com-java-app
+    ports:
+      - "8080:8080"
+
+  nginx:
+    image: nginx:latest
+    container_name: chrisshop.com-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - app
