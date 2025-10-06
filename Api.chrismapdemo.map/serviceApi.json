@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "185184976746",
-    "project_id": "chrisshop.com",
-    "storage_bucket": "chrisshop.com.appspot.com"
+    "project_id": "Api.chrismapdemo.map",
+    "storage_bucket": "Api.chrismapdemo.masp.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "185184976746",
         "android_client_info": {
-          "package_name": "chrisshop.com"
+          "package_name": "Api.chrismapdemo.map"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_type": 1,
           "client_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com",
           "android_info": {
-            "package_name": "chrisshop.com"
+            "package_name": "Api.chrismapdemo.map"
           }
         }
       ],
@@ -32,7 +32,7 @@
             {
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "chrisshop.com.ios",
+                "bundle_id": "Api.chrismapdemo.map.ios",
                 "app_store_id": "1234567890"
               }
             }
