@@ -9,8 +9,8 @@ $TTL 3600   ; 1 hour
 )
 
 ; Nameservers
-@       IN  NS   ns1.www.chrisratana.mastre. hosts
-@       IN  NS   ns2.www.chrisratana.mastre. hosts
+@       IN  NS   ns1.www.chrisratana.mastre.com hosts
+@       IN  NS   ns2.www.chrisratana.mastre.com hosts
 
 ; Root domain → Public IP 
 https       IN  A    198.169.1.1
