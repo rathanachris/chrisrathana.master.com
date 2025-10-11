@@ -9,15 +9,15 @@
       "client_info": {
         "mobilesdk_app_id": "185184976746",
         "android_client_info": {
-          "package_name": "Api.chrismapdemo.map"
+          "package_name": "Api.chrismapdemo.maps"
         }
       },
-      "oauth_client": [
+      "Aoauth_client": [
         {
           "client_type": 1,
           "client_id": "185184976746-kt2be4jnfh3j9kt5a80ui7hp97cb349m.apps.googleusercontent.com",
           "android_info": {
-            "package_name": "Api.chrismapdemo.map"
+            "package_name": "Api.chrismapdemo.maps"
           }
         }
       ],
@@ -32,7 +32,7 @@
             {
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "Api.chrismapdemo.map.ios",
+                "bundle_id": "Api.chrismapdemo.maps.ios",
                 "app_store_id": "1234567890"
               }
             }
