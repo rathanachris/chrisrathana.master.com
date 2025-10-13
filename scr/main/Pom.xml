@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+    xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <!-- Special Identifier -->
+  <specialId>com.chrisrathana</specialId>
+
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2025/WindowsSettings">true</dpiAware>
+    </windowsSettings>
+  </application>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.microsoft.windows</groupId>
+      <artifactId>common-controls</artifactId>
+      <version>4.0.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/Microsoft.Windows.Common-Controls.dll</systemPath>
+    </dependency>
+  </dependencies>
+
+</project>
