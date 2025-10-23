@@ -80,5 +80,5 @@ jobs:
         node-version: '20.x' # កំណត់ version តាមតម្រូវការរបស់អ្នក
         cache: 'npm'
        # បញ្ជាក់ផ្លូវទៅកាន់ lock file បើវាមិននៅក្នុងថត root
-        cache-dependency-path: './my-app/package-lock.json' # កែតម្រូវផ្លូវនេះតាមទីតាំងពិតប្រាកដ
+        cache-dependency-path: './my-app/package-lock.json''shrinkwrap.json''yarn.lock' # កែតម្រូវផ្លូវនេះតាមទីតាំងពិតប្រាកដ
     
