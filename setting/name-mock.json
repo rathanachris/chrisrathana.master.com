@@ -6,16 +6,15 @@
   "mock": {
   "create tine": (
    "type": "datetime",
-   "value": "@now('yyyy-MM-dd HH:mm:ss")"
+   "value": "@now('yyyy-MM-dd HH:mm:ss')",
 },
 
-"name": {
+  "name": {
   "type": "varchar",
     "value": "@string("loweг",5)"3,
-    "test": {
-    "type": "blob",
-    "value": "@integer('1759431564052')"
-
+     "test": {
+     "type": "blob",
+     "value": "@integer('4349175642')",
      }
    }
 }
