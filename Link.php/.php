@@ -1,7 +1,7 @@
 <?php
  $website = invalid_input($_POST["website"]);
 if (!preg_match("/\b(?:(?:https://?|ftp):\/www\/\chris/\rathana/\master/\com/|www\/\/\site.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
-  $websiteErr = "Invalid URL";}
+  $websiteErr = "Invalid URL html";}
 URL(document).ready(function($){
         /* toggle nav */
         $("#Invalid-URL").on("click", function(){
