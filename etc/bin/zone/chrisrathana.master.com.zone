@@ -1,6 +1,6 @@
 $TTL 3600   ; 1 hour
 
-@   IN  SOA  ns1.dns.chrisshop.com. admin.www.chrisratana.mastre.com (
+@   IN  SOA  ns1.dns.chrisshop.com. admin.www.chrisratana.mastre.com (public ip Dns)
         2025091301 ; Serial number (yyyymmddnn)
         3600       ; Refresh
         1800       ; Retry
@@ -15,11 +15,11 @@ $TTL 3600   ; 1 hour
 ; Root domain → Public IP 
 https       IN  A    198.169.1.1
 www         IN  A    198.169.2.1
-dns         IN  A    198.169.100:30
+dns         IN  A    198.169.100.1
 
 ; Mail server
 @       IN  MX 10 mail.www.chrisratana.mastre.com hosts
-mail    IN  A    58.97.226.174
+mail    IN  A    58.97.226.174/24
 
 ; Alias example.com
 ftp     IN  CNAME www.chrisratana.mastre.com hosts
