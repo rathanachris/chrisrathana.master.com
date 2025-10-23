@@ -1,4 +1,4 @@
-(
+{
    "table": "table_name",
     "mockStartIndex": "auto",
     "nockCount": 10,
