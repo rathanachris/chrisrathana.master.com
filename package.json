@@ -1,0 +1,26 @@
+{
+   "projectname": "chrisrathana.master.com",
+   "lockfileVersion": 3,
+   "requires": true,
+   "packages": {}
+}
+     "version": "0.1.0",
+     "description": "A simple DSS for dns.master.com.sql",
+     "main": "index.js",
+        "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts types --env=jsdom",
+        "eject": "react-scripts eject"
+
+},
+   "author": {"email": "chris@master.com"},
+   "dependencies": {
+     "react-csp": "^1.1.3",
+     "react-dom": "^19.1.1",
+     "react-scripts":"^5.0.1"
+},
+  "devDependencies": {
+     "@types/react": "^19.1.12",
+     "@types/react": "^19.1.9",
+}
