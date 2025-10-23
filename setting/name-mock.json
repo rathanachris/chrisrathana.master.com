@@ -4,7 +4,7 @@
     "nockCount": 10,
     "nockValueReference":   "http://mockjs.com/master.com.html#OPO",
   "mock": {
-  "create tine": (
+  "create tine": {
    "type": "datetime",
    "value": "@now('yyyy-MM-dd HH:mm:ss')",
 },
