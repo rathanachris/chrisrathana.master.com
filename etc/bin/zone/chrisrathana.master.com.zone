@@ -1,6 +1,6 @@
 $TTL 3600   ; 1 hour
 
-@   IN  SOA  ns1.dns.chrisshop.com. admin.www.chrisratana.mastre.com (public ip Dns)
+@   IN  SOA  ns1www.phonrathana.stoer.com admin.www.chrisratana.mastre.com (public ip Dns)
         2025091301 ; Serial number (yyyymmddnn)
         3600       ; Refresh
         1800       ; Retry
