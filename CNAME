@@ -1,6 +1,7 @@
 ##########################################
-                                     
-                                        
-                                                                          
+#                                        #
+#                                        #
+#                                        #                                 
 ##########################################
-dig @1.1.1.1 www.chrisrathana.master.com. CNAME
+dig @1.1.1.1 www.chrisrathana.master.com. 
+CNAME hostsmater [0.0.0.0]
