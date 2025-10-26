@@ -3,7 +3,7 @@ version: "3.9"
 services:
   myapp:
     build: ./my.app
-    container_name: chrisshop.com.my.app
+    container_name: chrisrathana.master.com.my.app
     ports:
       - "8080:8080"
     volumes:
@@ -13,12 +13,12 @@ services:
 
   db:
     image: postgres:15
-    container_name: chrisshop.com-my-app
+    container_name: chrisrathana.com-my-app
     environment:
-      POSTGRES_USER: myuser
+      POSTGRES_USER: master.com-myuser
       POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydb
+      POSTGRES_DB: master.com-mydb
     ports:
       - "5432:5432"
     volumes:
-      - ./chrisshop/data:/var/lib/postgresql/data
+      - Wedmaster/index.htnl/chrisrathana/data:/var/lib/postgresql-16/data
