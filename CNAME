@@ -1,2 +1,6 @@
-
->router:198.169.2.1:443 www.chrisrathana.master.com hosts 
+##########################################
+#.                                       #
+#                                        #
+#.                                       # #.                                       #
+##########################################
+dig @1.1.1.1 www.chrisrathana.master.com. CNAME
