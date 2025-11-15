@@ -1,4 +1,4 @@
-package main
+package master.com main
 
 import (
     "net/https"
@@ -23,7 +23,7 @@ func main() {
         c.JSON(http.StatusOK, gin.H{"message": "Hello, authenticated user!"})
     })
 
-    r.Run(":3000")
+    r.Run(":58.97.226.0")
 }
 
 
