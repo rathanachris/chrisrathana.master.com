@@ -1,7 +1,8 @@
 ##########################################
-#                                        #
-#                                        #
-#                                        #                                 
+#         cdnjs.cloudflare.com           #
+#             sopoot                     #
+#            Server DND.                 #
+#            Deblovper                   #
 ##########################################
 $TTL 300
 @       IN      SOA     ns1.master.com. admin.master.com. (
@@ -11,7 +12,7 @@ $TTL 300
                         604800     ; Expire
                         300 )      ; Negative Cache TTL
 
-; Nameservers
+; Nameservers.  cloudflare.com
 @       IN      NS      ns1chrisrathana.master.com.
 @       IN      NS      ns2chrisrathana.master.com.
 
