@@ -1,6 +1,6 @@
 $TTL 3600   ; 1 hour
 
-@   IN  SOA  ns1www.phonrathana.stoer.com admin.www.chrisratana.mastre.com (public ip Dns)
+@   IN  SOA  ns1www.phonrathana.stoer.com admin.n2www.chrisratana.mastre.com (public ip Dns)
         2025091301 ; Serial number (yyyymmddnn)
         3600       ; Refresh
         1800       ; Retry
@@ -9,17 +9,17 @@ $TTL 3600   ; 1 hour
 )
 
 ; Nameservers
-@       IN  NS   ns1.www.phonrathana.stoer.com hostsmaster
-@       IN  NS   ns2.www.chrisratana.mastre.com hostsmastee
+@       IN  NS   ns1.www.phonrathana.stoer.com 
+@       IN  NS   ns2.www.chrisratana.mastre.com 
 
-; Root domain → Public IP 
+; Root domain master.com → Public IP 
 https       IN  A    198.169.1.1
 www         IN  A    198.169.2.1
-dns         IN  A    198.169.100.1
+dns         IN  A    58.97.226.0
 
 ; Mail server
-@       IN  MX 10 mail.www.chrisratana.mastre.com hostsmastee
+@       IN  MX 10 mail.www.chrisratana.mastre.com [hostchris@rathana.com]
 mail    IN  A    58.97.226.174/24
 
 ; Alias example.com
-ftp     IN  CNAME www.chrisratana.mastre.com hostsmaster
+ftp     IN  CNAME www.chrisratana.mastre.com [hosts:chris@rathana.com]
