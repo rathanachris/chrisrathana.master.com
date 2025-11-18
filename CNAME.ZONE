@@ -1,7 +1,7 @@
 ##########################################
 #         cdnjs.cloudflare.com           #
 #             sopoot                     #
-#            Server DND.                 #
+#            Server DNs.                 #
 #            Deblovper                   #
 ##########################################
 $TTL 300
@@ -13,8 +13,8 @@ $TTL 300
                         300 )      ; Negative Cache TTL
 
 ; Nameservers.  cloudflare.com
-@       IN      NS      ns1chrisrathana.master.com.
-@       IN      NS      ns2chrisrathana.master.com.
+@       IN      NS      ns1.master.com.
+@       IN      NS      ns2.master.com.
 
 ; A Records
 @             IN  A       58.97.226.0
