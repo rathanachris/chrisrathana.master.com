@@ -1,0 +1,30 @@
+{
+  "from": {
+    "name": "Chris Rathana",
+    "email": "no-reply@yourdomain.com"
+  },
+  "to": [
+    {"name": "rathana", "email": "rathana@example.com"}
+  ],
+  "cc": [
+    {"name": "Manager", "email": "manager@example.com"}
+  ],
+  "bcc": [],
+  "subject": "សាកល្បងផ្ញើអ៊ីមែលពី Dock API",
+  "text": "សួស្តី! នេះជាសារសាកល្បងជាអត្ថបទបែប Plain text.",
+  "html": "<p>សួស្តី! <strong>នេះជាសារសាកល្បង</strong> ពី Dock API.</p>",
+  "headers": {
+    "X-Custom-Header": "custom-value"
+  },
+  "attachments": [
+    {
+      "filename": "manual.pdf",
+      "content_type": "application/pdf",
+      "content_base64": "<BASE64_ENCODED_CONTENT>"
+    }
+  ],
+  "tracking": {
+    "open": true,
+    "click": true
+  }
+}
