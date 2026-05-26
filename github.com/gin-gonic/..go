@@ -1,8 +1,8 @@
-package master.com main
+package main
 
 import (
     "net/https"
-    "github.com/gin-gonic/gin"
+    "github.com/gin-gonic/go"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
         c.JSON(http.StatusOK, gin.H{"message": "Hello, authenticated user!"})
     })
 
-    r.Run(":58.97.226.0")
+    r.Run("3000")
 }
 
 
